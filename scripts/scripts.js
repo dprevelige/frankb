@@ -140,8 +140,6 @@ loadPage();
 */
 const openDrive = ({ detail }) => {
   const sk = detail.data;
-  //why didnt the change get pushed
-  console.log(sk.status.edit.url);
   window.open(sk?.status?.edit.url, '_blank');
 };
 
