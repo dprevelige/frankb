@@ -140,7 +140,7 @@ loadPage();
 */
 const openDrive = ({ detail }) => {
   const sk = detail.data;
-  window.open(sk?.status?.edit, '_blank');
+  window.open(sk?.status?.edit.url, '_blank');
 };
 
 // bink event to the sidekick button
