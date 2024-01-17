@@ -140,7 +140,7 @@ loadPage();
 */
 const openDrive = ({ detail }) => {
   const sk = detail.data;
-  window.open(sk?.config?.mountpoint, '_blank');
+  window.open(sk?.status?.edit, '_blank');
 };
 
 // bink event to the sidekick button
